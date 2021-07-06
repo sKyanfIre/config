@@ -1,0 +1,119 @@
+set relativenumber
+set number
+set timeoutlen=800
+set ignorecase
+set smartcase
+set autoindent
+set smartindent
+set hlsearch
+set incsearch
+set keep-english-in-normal-and-restore-in-insert
+set ideastrictmode
+
+let mapleader=" "
+"easymotion
+"let g:EasyMotion_override_acejump = 0
+"let g:EasyMotion_do_mapping = 0
+let g:argtextobj="(,),<,>"
+" plugin
+set easymotion
+set NERDTree
+set surround
+set multiple-cursors
+set commentary
+" 交换文本 cx{motion} cxx(交换整行) cxc(clear)
+set exchange
+" select all ag ie(不包含前后空行) textobj = e
+set textobj-entire
+" textobj = a args
+set argtextobj
+" textobj = i
+set vim-indent-object
+" { }"
+set vim-paragraph-motion
+" easymotion
+"nmap <leader>ef <Plug>(easymotion-bd-f)
+"nnoremap <leader>et <Plug>(easymotion-bd-t)
+" keymap
+inoremap <c-j> <down>
+inoremap <c-k> <up>
+inoremap <c-h> <left>
+inoremap <c-l> <right>
+
+noremap <c-y> "*y
+noremap <c-p> "*p
+" tab
+noremap <a-,> gT
+noremap <a-.> gt
+nnoremap <leader>1 :action GoToTab1<CR>
+nnoremap <leader>2 :action GoToTab2<CR>
+nnoremap <leader>3 :action GoToTab3<CR>
+nnoremap <leader>4 :action GoToTab4<CR>
+nnoremap <leader>5 :action GoToTab5<CR>
+nnoremap <leader>6 :action GoToTab6<CR>
+nnoremap <leader>7 :action GoToTab7<CR>
+nnoremap <leader>8 :action GoToTab8<CR>
+nnoremap <leader>9 :action GoToTab9<CR>
+nnoremap <leader>tl :action GoToLastTab<CR>
+nnoremap <leader>th :action GoToTab1<CR>
+noremap <a-o> :action CloseAllEditorsButActive<CR>
+
+" window
+nnoremap <leader>wj <c-w>j
+nnoremap <leader>wk <c-w>k
+nnoremap <leader>wh <c-w>h
+nnoremap <leader>wl <c-w>l
+nnoremap <leader>wo <c-w>o
+nnoremap <leader>ws <c-w>s
+nnoremap <leader>wv <c-w>v
+nnoremap <leader>wd <c-w>d
+"nnoremap q :close<CR>
+nnoremap <a-q> :q<CR>
+" navigation
+nnoremap <c-o> :action Back<CR>
+nnoremap <c-i> :action Forward<CR>
+nnoremap <leader>ej :action GotoNextError<CR>
+nnoremap <leader>ek :action GotoPreviousError<CR>
+" but preserve ideavim defaults
+"nnoremap g<c-o> <c-o>
+"nnoremap g<c-i> <c-i>
+
+" search
+"nnoremap / :action Find<CR>
+
+"nnoremap g/ /
+" code navigation
+nnoremap gi :action GotoImplementation<cr>
+nnoremap gs :action GotoSuperMethod<cr>
+nnoremap gd :action GotoDeclaration<cr>
+nnoremap gf :action FindUsages<cr>
+nnoremap gj :action QuickJavaDoc<CR>
+"nnoremap <space>gt :action GotoTest<cr>
+"nnoremap <space>k :action HighlightUsagesInFile<cr>
+nnoremap \r :action RunClass<cr>
+nnoremap \R :action Run<cr>
+nnoremap \d :action DebugClass<cr>
+nnoremap \D :action Debug<cr>
+nnoremap \c :action CheckStyleCurrentFileAction<cr>
+" cancel highlight
+nnoremap \ :nohl<cr>
+" NERDTree
+nnoremap <leader>ee :NERDTreeToggle<CR>
+nnoremap <leader>eo :NERDTreeFind<CR>
+" hierarchy
+nnoremap <leader>eh :action TypeHierarchy<CR>
+" git
+nnoremap <leader>go :action Git.MainMenu<CR>
+nnoremap <leader>gm :action Git.Menu<CR>
+nnoremap <leader>gp :action Git.Pull<CR>
+" generate"
+nnoremap <leader>fg :action  Generate<CR>
+
+"noremap <C-a> ggVG
+noremap <C-s> :w<CR>
+noremap == :action ReformatCode<CR>
+
+nnoremap <leader>rt :action RestartIde<CR>
+nnoremap <leader>fj :action NewClass<CR>
+nnoremap <leader>fp :action NewDir<CR>
+

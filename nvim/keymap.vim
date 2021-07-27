@@ -114,16 +114,16 @@ noremap <silent>    <A-.> :BufferNext<CR>
 noremap <silent>    <A-<> :BufferMovePrevious<CR>
 noremap <silent>    <A->> :BufferMoveNext<CR>
 " Goto buffer in position...
-noremap <silent>    <A-1> :BufferGoto 1<CR>
-noremap <silent>    <A-2> :BufferGoto 2<CR>
-noremap <silent>    <A-3> :BufferGoto 3<CR>
-noremap <silent>    <A-4> :BufferGoto 4<CR>
-noremap <silent>    <A-5> :BufferGoto 5<CR>
+noremap <silent>    <A-a> :BufferGoto 1<CR>
+noremap <silent>    <A-s> :BufferGoto 2<CR>
+noremap <silent>    <A-d> :BufferGoto 3<CR>
+noremap <silent>    <A-f> :BufferGoto 4<CR>
+noremap <silent>    <A-g> :BufferGoto 5<CR>
 noremap <silent>    <A-6> :BufferGoto 6<CR>
 noremap <silent>    <A-7> :BufferGoto 7<CR>
 noremap <silent>    <A-8> :BufferGoto 8<CR>
 noremap <silent>    <A-9> :BufferGoto 9<CR>
-noremap <silent>    <A-0> :BufferLast<CR>
+noremap <silent>    <A-;> :BufferLast<CR>
 
 
 " Close buffer

@@ -39,7 +39,7 @@ Plug 'romgrk/nvim-treesitter-context'
 Plug 'p00f/nvim-ts-rainbow'
 " treesitter
 Plug 'preservim/tagbar'
-Plug 'lyokha/vim-xkbswitch'
+" Plug 'lyokha/vim-xkbswitch'
 Plug 'yggdroot/indentline'
 Plug 'tpope/vim-repeat'
 Plug 'machakann/vim-highlightedyank'

@@ -7,8 +7,8 @@ inoremap <C-l> <Right>
 imap <C-s> <esc>:w<CR>
 nmap <C-s> <esc>:w<CR>
 " copy && paste 
-noremap <C-y> "+y
-noremap <c-p> "+p
+noremap <C-y> "*y
+noremap <c-p> "*p
 " close highlight 
 nnoremap <esc> :noh<return><esc>
 " fzf
@@ -21,7 +21,7 @@ nnoremap <esc> :noh<return><esc>
 "imap <c-f><c-l> <plug>(fzf-complete-line)
 " coc-fzf-preview
 
-noremap <silent><c-f> :FzfPreviewProjectFilesRpc<CR>
+" noremap <silent><c-f> :FzfPreviewProjectFilesRpc<CR>
 noremap <silent><C-f><C-f> :FzfPreviewVistaCtagsRpc<CR>
 noremap <silent><C-f><c-i> :CocCommand fzf-preview.CocImplementations<CR>
 noremap <silent><C-f><c-d> :CocCommand fzf-preview.CocTypeDefinitions<CR>

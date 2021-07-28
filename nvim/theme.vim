@@ -1,6 +1,7 @@
 
 " By default timeoutlen is 1000 ms
 set clipboard=unnamedplus
+" set clipboard=unnamed
 set timeoutlen=800
 hi Normal  ctermfg=252 ctermbg=none
 " remove blank from sessionoptions

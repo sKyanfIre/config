@@ -61,18 +61,12 @@ let g:which_key_map.b = {
  nnoremap <silent><leader>eb :CocCommand explorer --preset buffer<CR>
 let g:which_key_map.e = {
 			\'name': 'explorer && easymotion && error',
-			\'w' :['<plug>(easymotion-bd-w)','easy-word'],
 			\'t' :['Vista','taglist'],
-			\'f' :['<plug>(easymotion-bd-f)','easy-f'],
-			\'j' :['<plug>(easymotion-j)','easy-j'],
-			\'k' :['<plug>(easymotion-bd-k)','easy-k'],
-			\'h' :['<plug>(easymotion-linebackwar)','easy-h'],
-			\'l' :['<plug>(easymotion-lineforward)','easy-l'],
             	        \'e' :'explorer',
 			\'n' :'nvim-conf',
 			\'b' :'buffer',
-			\'-' :['<plug>(coc-diagnostic-prev)','error-prev'],
-			\'=' :['<plug>(coc-diagnostic-next)','error-next'],
+			\'j' :['<plug>(coc-diagnostic-prev)','error-prev'],
+			\'k' :['<plug>(coc-diagnostic-next)','error-next'],
 			\}
 
 let g:which_key_map.g = {

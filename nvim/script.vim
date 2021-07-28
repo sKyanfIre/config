@@ -26,7 +26,7 @@ EOF
 " EOF
 lua <<EOF
 require'nvim-treesitter.configs'.setup {
-  ensure_installed = "maintained", -- one of "all", "maintained" (parsers with maintainers), or a list of languages
+  ensure_installed = {"java", "c", "rust", "bash", "c_sharp", "json", "lua", "toml", "yaml", "javascript" ,"python", "html"}, -- one of "all", "maintained" (parsers with maintainers), or a list of languages
   ignore_install = {  }, -- List of parsers to ignore installing
   highlight = {
     enable = true,              -- false will disable the whole extension
@@ -77,3 +77,28 @@ require "nvim-treesitter.configs".setup {
     },
   }
 }
+
+"##### auto fcitx  ###########
+let g:input_toggle = 1
+function! Fcitx2en()
+   let s:input_status = system("fcitx-remote")
+   if s:input_status == 2
+      let g:input_toggle = 1
+      let l:a = system("fcitx-remote -c")
+   endif
+endfunction
+
+function! Fcitx2zh()
+   let s:input_status = system("fcitx-remote")
+   if s:input_status != 2 && g:input_toggle == 1
+      let l:a = system("fcitx-remote -o")
+      let g:input_toggle = 0
+   endif
+endfunction
+
+set ttimeoutlen=150
+"Exit insert mode
+autocmd InsertLeave * call Fcitx2en()
+"Enter insert mode
+autocmd InsertEnter * call Fcitx2zh()
+"##### auto fcitx end ######

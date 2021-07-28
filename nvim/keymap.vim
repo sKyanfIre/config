@@ -7,8 +7,8 @@ inoremap <C-l> <Right>
 imap <C-s> <esc>:w<CR>
 nmap <C-s> <esc>:w<CR>
 " copy && paste 
-noremap <C-y> "*y
-noremap <c-p> "*p
+noremap <C-y> "+y
+noremap <c-p> "+p
 " close highlight 
 nnoremap <esc> :noh<return><esc>
 " fzf

@@ -43,6 +43,7 @@ static const Rule rules[] = {
 	{ "Firefox",  NULL,       NULL,       1 << 8,       0,           -1 },
     /* { "Youdao Dict", NULL, "有道词典", 1<< 4, 1, 0}, */
     { "netease-cloud-music", NULL, NULL , 1<<3, 0, 0},
+    { "qv2ray", NULL, NULL , 1<<4, 0, 0},
 };
 /* layout(s) */ 
 static const float mfact     = 0.55; /* factor of master area size [0.05..0.95] */

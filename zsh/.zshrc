@@ -105,3 +105,4 @@ if [ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ]; then
 fi
 
 alias vim='nvim'
+alias vi='nvim'

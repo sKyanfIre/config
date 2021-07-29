@@ -177,6 +177,68 @@ font:
   #use_thin_strokes: true
 
 # If `true`, bold text is drawn using the bright color variants.
+# Colors (New Moon)
+# colors:
+#   # Default colors
+#   primary:
+#     background: '#2D2D2D'
+#     foreground: '#B3B9C5'
+#   # Normal colors
+#   normal:
+#     black: '#2D2D2D'
+#     red: '#F2777A'
+#     green: '#92D192'
+#     yellow: '#FFD479'
+#     blue: '#6AB0F3'
+#     magenta: '#E1A6F2'
+#     cyan: '#76D4D6'
+#     white: '#B3B9C5'
+#   # Bright colors
+#   bright:
+#     black: '#777C85'
+#     red: '#F2777A'
+#     green: '#76D4D6'
+#     yellow: '#FFEEA6'
+#     blue: '#6AB0F3'
+#     magenta: '#E1A6F2'
+#     cyan: '#76D4D6'
+#     white: '#FFFFFF'
+
+# VSCode's integrated terminal default colors
+# Primary and dimmed colors needed
+
+# colors:
+#   # Default colors
+#   primary:
+#     background: '#1e1e1e' #Background from Dark Theme
+#     foreground: '#cccccc'
+
+#   # Selection colors
+#   selection:
+#     text: CellForeground
+#     background: '#565656'
+
+#   # Normal colors
+#   normal:
+#     black:   '#000000'
+#     red:     '#cd3131'
+#     green:   '#0dbc79'
+#     yellow:  '#e5e510'
+#     blue:    '#2472c8'
+#     magenta: '#bc3fbc'
+#     cyan:    '#11a8cd'
+#     white:   '#e5e5e5'
+
+#   # Bright colors
+#   bright:
+#     black:   '#666666'
+#     red:     '#f14c4c'
+#     green:   '#23d18b'
+#     yellow:  '#f5f543'
+#     blue:    '#3b8eea'
+#     magenta: '#d670d6'
+#     cyan:    '#29b8db'
+#     white:   '#e5e5e5'
 
 # Colors (Monokai Soda)
 colors:
@@ -209,33 +271,33 @@ colors:
 
 #draw_bold_text_with_bright_colors: false
 ## Colors (Monokai Pro)
-colors:
-  # Default colors
-  primary:
-    background: '#2D2A2E'
-    foreground: '#FCFCFA'
+# colors:
+#   # Default colors
+#   primary:
+#     background: '#2D2A2E'
+#     foreground: '#FCFCFA'
 
-  # Normal colors
-  normal:
-    black:   '#403E41'
-    red:     '#FF6188'
-    green:   '#A9DC76'
-    yellow:  '#FFD866'
-    blue:    '#FC9867'
-    magenta: '#AB9DF2'
-    cyan:    '#78DCE8'
-    white:   '#FCFCFA'
+#   # Normal colors
+#   normal:
+#     black:   '#403E41'
+#     red:     '#FF6188'
+#     green:   '#A9DC76'
+#     yellow:  '#FFD866'
+#     blue:    '#FC9867'
+#     magenta: '#AB9DF2'
+#     cyan:    '#78DCE8'
+#     white:   '#FCFCFA'
 
-  # Bright colors
-  bright:
-    black:   '#727072'
-    red:     '#FF6188'
-    green:   '#A9DC76'
-    yellow:  '#FFD866'
-    blue:    '#FC9867'
-    magenta: '#AB9DF2'
-    cyan:    '#78DCE8'
-    white:   '#FCFCFA'
+#   # Bright colors
+#   bright:
+#     black:   '#727072'
+#     red:     '#FF6188'
+#     green:   '#A9DC76'
+#     yellow:  '#FFD866'
+#     blue:    '#FC9867'
+#     magenta: '#AB9DF2'
+#     cyan:    '#78DCE8'
+#     white:   '#FCFCFA'
 
 # Colors (Molokai Dark)
 # colors:

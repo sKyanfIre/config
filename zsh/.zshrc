@@ -106,3 +106,5 @@ fi
 
 alias vim='nvim'
 alias vi='nvim'
+alias rr='ranger'
+alias lg='lazygit'

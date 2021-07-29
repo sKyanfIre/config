@@ -22,11 +22,11 @@ nnoremap <esc> :noh<return><esc>
 " coc-fzf-preview
 
 " noremap <silent><c-f> :FzfPreviewProjectFilesRpc<CR>
-noremap <silent><C-f><C-f> :FzfPreviewVistaCtagsRpc<CR>
-noremap <silent><C-f><c-i> :CocCommand fzf-preview.CocImplementations<CR>
-noremap <silent><C-f><c-d> :CocCommand fzf-preview.CocTypeDefinitions<CR>
-noremap <silent><C-f><c-g> :FzfPreviewGitLogsRpc<CR>
-noremap <silent><C-f><c-a> :Files<CR>
+" noremap <silent><C-f><C-f> :FzfPreviewVistaCtagsRpc<CR>
+" noremap <silent><C-f><c-i> :CocCommand fzf-preview.CocImplementations<CR>
+" noremap <silent><C-f><c-d> :CocCommand fzf-preview.CocTypeDefinitions<CR>
+" noremap <silent><C-f><c-g> :FzfPreviewGitLogsRpc<CR>
+" noremap <silent><C-f><c-a> :Files<CR>
 " GoTo code navigation.
 nmap <silent> gd <Plug>(coc-definition)
 nmap <silent> gy <Plug>(coc-type-definition)

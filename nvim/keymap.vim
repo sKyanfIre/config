@@ -3,6 +3,9 @@ inoremap <C-j> <Down>
 inoremap <C-k> <Up>
 inoremap <C-h> <Left>
 inoremap <C-l> <Right>
+" enter command mode
+inoremap <c-;> <esc>:
+nnoremap <c-;> <esc>:
 " noremap <C-a> ggVG
 imap <C-s> <esc>:w<CR>
 nmap <C-s> <esc>:w<CR>

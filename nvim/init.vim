@@ -27,8 +27,11 @@ Plug 'kdheepak/lazygit.nvim',
 Plug 'neoclide/coc.nvim',{'branch': 'release'}
 Plug 'tpope/vim-surround'
 Plug 'airblade/vim-gitgutter'
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
+" Plug 'vim-airline/vim-airline'
+" Plug 'vim-airline/vim-airline-themes'
+"
+Plug 'glepnir/spaceline.vim'
+
 Plug 'honza/vim-snippets'
 Plug 'easymotion/vim-easymotion'
 " treesitter

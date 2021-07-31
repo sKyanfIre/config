@@ -15,6 +15,7 @@ set ruler
 set number
 set relativenumber 
 set ignorecase
+set smartcase
 set wildmenu
 
 set softtabstop=4

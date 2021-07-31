@@ -3,7 +3,7 @@
 set clipboard=unnamedplus
 " set clipboard=unnamed
 set timeoutlen=800
-hi Normal  ctermfg=252 ctermbg=none
+" hi Normal  ctermfg=252 ctermbg=none
 " remove blank from sessionoptions
 set sessionoptions=buffers,curdir,folds,help,tabpages,winsize
 " theme

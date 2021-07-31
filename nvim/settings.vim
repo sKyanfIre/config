@@ -157,6 +157,8 @@ let g:which_key_vertical = 0
 let g:which_key_position = 'botright'
 let g:which_key_hspace = 5 
 let g:which_key_centered = 1
+let g:which_key_use_floating_win = 0
+let g:which_key_timeout = 300
 " indentline
 let g:indent_guides_guide_size =1 "dui qi xian de1 chi cun"
 let g:indent_guides_start_level = 2 "cong di er ceng kai shi dui qi"

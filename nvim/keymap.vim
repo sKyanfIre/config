@@ -130,7 +130,7 @@ noremap <silent>    <A-;> :BufferLast<CR>
 noremap <silent>    <A-q> :BufferClose<CR>
 noremap <silent>    <A-o> :BufferCloseAllButCurrent<CR>
 " Magic buffer-picking mode
-noremap <silent> <A-p>    :BufferPick<CR>
+noremap <silent> <A-w>    :BufferPick<CR>
 " resize window
 noremap <silent> <A--> :resize-5<CR> 
 noremap <silent> <A-=> :resize+5<CR>

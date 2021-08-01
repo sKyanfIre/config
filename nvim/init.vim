@@ -16,13 +16,14 @@ Plug 'liuchengxu/space-vim-dark'
 Plug 'tomasr/molokai',
 " theme
 Plug 'kyazdani42/nvim-web-devicons'
+Plug 'ryanoasis/vim-devicons'
 Plug 'romgrk/barbar.nvim'
 Plug 'mhinz/vim-startify'
 Plug 'liuchengxu/vim-which-key'
 Plug 'tpope/vim-fugitive'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
-Plug 'yuki-yano/fzf-preview.vim'
+Plug 'yuki-yano/fzf-preview.vim', {'branch': 'release/rpc'}
 Plug 'kdheepak/lazygit.nvim',
 Plug 'neoclide/coc.nvim',{'branch': 'release'}
 Plug 'tpope/vim-surround'

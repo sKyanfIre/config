@@ -79,9 +79,14 @@ let g:which_key_map.t = {
 			\'j': ['tabnext','tabnext'],
 			\'k': ['tabprevious','tabpren'],
 			\}
+			" \'f':['<plug>(coc-format-selected)','format code'],
 let g:which_key_map.f = {
 			\'name': 'file',
-			\'f':['<plug>(coc-format-selected)','format code'],
 			\'r':['<plug>(coc-rename)','rename'],
 			\'o':['Ranger','ranger'],
+            \'f':['FzfPreviewProjectFilesRpc','search file'],
+            \'g':['FzfPreviewGitLogsRpc', 'search git log'],
+            \'b':['FzfPreviewAllBuffersRpc', 'search buffer'],
+            \'t':['FzfPreviewVistaCtagsRpc', 'search ctags'],
+            \'l':['FzfPreviewBufferLinesRpc', 'search lines']
 			\}

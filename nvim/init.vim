@@ -47,6 +47,8 @@ Plug 'preservim/tagbar'
 Plug 'yggdroot/indentline'
 Plug 'tpope/vim-repeat'
 Plug 'machakann/vim-highlightedyank'
+Plug 'instant-markdown/vim-instant-markdown', {'for': 'markdown', 'do': 'yarn install'}
+
 call plug#end()
 source $HOME/.config/nvim/functions.vim
 source $HOME/.config/nvim/theme.vim

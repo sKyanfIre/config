@@ -22,7 +22,8 @@ set softtabstop=4
 set shiftwidth=4
 set ts=4
 set expandtab
-filetype indent on
+" filetype indent on
+filetype plugin on
 set hlsearch
 set encoding=utf-8
 " TextEdit might fail if hidden is not set.

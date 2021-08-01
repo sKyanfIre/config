@@ -30,3 +30,4 @@ qv2ray
 v2ray
 xclip
 ueberzug
+sudo npm -g install instant-markdown-d

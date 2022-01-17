@@ -9,6 +9,7 @@ set hlsearch
 set incsearch
 set keep-english-in-normal-and-restore-in-insert
 set ideastrictmode
+let keep_input_source_in_normal="com.sogou.inputmethod.sogou.pinyin";
 
 let mapleader=" "
 "easymotion

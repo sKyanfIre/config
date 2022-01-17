@@ -1,0 +1,22 @@
+#!/bin/bash
+base_path="/Users/zzz/github/note/"
+default_group="default/"
+if [ $2 ]; 
+then 
+    default_group=$2"/"
+fi
+note_path=$base_path$default_group
+
+if [ ! -d $note_path ];
+then 
+    mkdir -p $note_path
+fi
+
+if [ $1 == '-v' ] ;
+then 
+    cd $note_path
+    ls -al
+    exit 0
+fi
+nvim $note_path$1
+

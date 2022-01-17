@@ -36,14 +36,15 @@ Plug 'glepnir/spaceline.vim'
 Plug 'honza/vim-snippets'
 Plug 'easymotion/vim-easymotion'
 " treesitter
-Plug 'nvim-treesitter/nvim-treesitter',{'do': ':TSUpdate'}
-Plug 'nvim-treesitter/nvim-treesitter-refactor'
-Plug 'nvim-treesitter/playground'
-Plug 'romgrk/nvim-treesitter-context'
-Plug 'p00f/nvim-ts-rainbow'
+"Plug 'nvim-treesitter/nvim-treesitter',{'do': ':TSUpdate'}
+"Plug 'nvim-treesitter/nvim-treesitter-refactor'
+"Plug 'nvim-treesitter/playground'
+"Plug 'romgrk/nvim-treesitter-context'
+"Plug 'p00f/nvim-ts-rainbow'
 " treesitter
 Plug 'preservim/tagbar'
 " Plug 'lyokha/vim-xkbswitch'
+Plug 'ybian/smartim'
 Plug 'yggdroot/indentline'
 Plug 'tpope/vim-repeat'
 Plug 'machakann/vim-highlightedyank'
@@ -55,5 +56,5 @@ source $HOME/.config/nvim/theme.vim
 source $HOME/.config/nvim/keymap.vim
 source $HOME/.config/nvim/settings.vim
 source $HOME/.config/nvim/whichkey.vim
-source $HOME/.config/nvim/script.vim
+"source $HOME/.config/nvim/script.vim
 

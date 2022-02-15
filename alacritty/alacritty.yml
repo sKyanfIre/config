@@ -33,6 +33,7 @@ window:
   dimensions:
     columns: 150
     lines: 42
+  opacity: 0.60
 
   # Window position (changes require restart)
   #
@@ -531,7 +532,7 @@ colors:
 #
 # Window opacity as a floating point number from `0.0` to `1.0`.
 # The value `0.0` is completely transparent and `1.0` is opaque.
-background_opacity: 0.75
+background_opacity: 0.60
 
 #selection:
   # This string contains all characters that are used as separators for
@@ -1005,6 +1006,7 @@ key_bindings:
   #- { key: F,              mods: Command, mode: ~Search,     action: SearchForward         }
   #- { key: B,              mods: Command, mode: ~Search,     action: SearchBackward        }
   # - { key: T,              mods: Command,      action: CreateNewWindow        }
+  # - { key: Back, action:  ReceiveChar}
 
 #debug:
   # Display the time it takes to redraw each frame.

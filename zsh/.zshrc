@@ -110,4 +110,5 @@ alias vi='nvim'
 alias rr='ranger'
 alias lg='lazygit'
 alias note='~/github/config/mynote/note'
+alias fzfp="fzf --preview 'head -n 100 {}'"
 tmux

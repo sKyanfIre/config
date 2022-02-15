@@ -50,19 +50,25 @@ tmux_conf_theme_colour_1="#080808"    # dark gray
 tmux_conf_theme_colour_2="#303030"    # gray
 tmux_conf_theme_colour_3="#8a8a8a"    # light gray
 tmux_conf_theme_colour_4="#00afff"    # light blue
-tmux_conf_theme_colour_5="#ffff00"    # yellow
+tmux_conf_theme_colour_5="#8258FA"    # yellow
+# tmux_conf_theme_colour_5="#ffff00"    # yellow
 tmux_conf_theme_colour_6="#080808"    # dark gray
 tmux_conf_theme_colour_7="#e4e4e4"    # white
 tmux_conf_theme_colour_8="#080808"    # dark gray
-tmux_conf_theme_colour_9="#ffff00"    # yellow
-tmux_conf_theme_colour_10="#ff00af"   # pink
+# tmux_conf_theme_colour_9="#ffff00"    # yellow
+tmux_conf_theme_colour_9="#8258FA"    # yellow
+tmux_conf_theme_colour_10="#8258FA"    # yellow
+# tmux_conf_theme_colour_10="#ff00af"   # pink
 tmux_conf_theme_colour_11="#5fff00"   # green
 tmux_conf_theme_colour_12="#8a8a8a"   # light gray
 tmux_conf_theme_colour_13="#e4e4e4"   # white
 tmux_conf_theme_colour_14="#080808"   # dark gray
 tmux_conf_theme_colour_15="#080808"   # dark gray
-tmux_conf_theme_colour_16="#d70000"   # red
-tmux_conf_theme_colour_17="#e4e4e4"   # white
+# tmux_conf_theme_colour_16="#d70000"   # red
+tmux_conf_theme_colour_16="#00afff"   # red
+
+# tmux_conf_theme_colour_17="#e4e4e4"   # white
+tmux_conf_theme_colour_17="#01DFD7"   # white
 
 # default theme (ansi)
 #tmux_conf_theme_colour_1="colour0"
@@ -425,3 +431,5 @@ bind - split-window -h
 bind = run 'cut -c3- ~/.tmux.conf | sh -s _maximize_pane "#{session_name}" #D'
 # move status line to top
 set -g status-position top
+bind . swap-pane -D       # swap current pane with the next one
+bind , swap-pane -U       # swap current pane with the previous one
